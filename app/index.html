@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Oneapp</title>
+    <title>One App</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,8 +15,30 @@
     {{content-for 'head-footer'}}
   </head>
   <body>
+    <!-- Modal to show push notifcations-->
+<div id="push-modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 id="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p id="modal-message">Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
     {{content-for 'body'}}
 
+    <!--<script src="cordova.js"></script>-->
     <script src="assets/vendor.js"></script>
     <script src="assets/oneapp.js"></script>
 

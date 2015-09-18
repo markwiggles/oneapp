@@ -1,0 +1,28 @@
+
+
+.container
+	liquid-outlet
+
+footer
+	.navbar.navbar-inverse
+		br
+		ul.nav.navbar-nav
+			li
+				link-to 'index'
+					i.fa.fa-home.fa-4x
+			li
+				link-to 'dashboard'
+					i.fa.fa-bar-chart.fa-4x
+			li
+				link-to 'info'
+					i.fa.fa-info-circle.fa-4x
+			li
+				link-to 'connect'
+					i.fa.fa-connectdevelop.fa-4x
+
+/
+/ <h1>Welcome to ember-cli-cordova!</h1>
+/
+/ {{liquid-outlet name="main"}}
+/
+/ {{liquid-outlet modal}}

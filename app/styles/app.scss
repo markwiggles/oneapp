@@ -1,0 +1,98 @@
+@import "ember-bootstrap-sass";
+@import "bower_components/font-awesome/scss/font-awesome";
+
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  input,
+  textarea {
+    -webkit-touch-callout: auto;
+    -webkit-user-select: auto;
+  }
+}
+
+// .ember-list-view {
+//   overflow: auto;
+//   position: relative;
+// }
+// .ember-list-item-view {
+//   position: absolute;
+// }
+
+#info-list {
+  width: 350px;
+  height: 800px;
+  position: relative;
+  text-align: left;
+  padding: 10px;
+}
+
+
+
+.container {
+  margin-top: 20px;
+  text-align: center;
+  h1 {
+    margin-top: 100px;
+  }
+  .break {
+    margin-top: 0;
+  }
+  .loader {
+    margin-top: 100px;
+  }
+  // width: 500px;
+}
+.list-collection {
+  height: 800px;
+  width: 400px;
+  margin: 0 auto;
+  li {
+    list-style: none;
+    border-bottom: 1px solid lightgey;
+  }
+  img {
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+  }
+  .fa {
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+  }
+
+  p {
+    display: inline-block;
+    margin-top: 10px;
+    float: left;
+    width: 100px;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.navbar-inverse {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  .navbar-nav {
+    float: none;
+    margin: auto;
+    width: 400px;
+    display: table;
+    li {
+      display: inline-block;
+    }
+  }
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+
+
+h3 #{model.title}
+hr
+link-to 'info' 
+	img src=model.url width=model.width
+
+
+br
+br
+br
+link-to 'info'
+	.fa.fa-chevron-left.fa-2x.text-primary

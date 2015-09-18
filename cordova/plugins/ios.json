@@ -1,0 +1,32 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"PushNotification\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.jolart.oneapp"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "com.jolart.oneapp"
+        },
+        "phonegap-plugin-push": {
+            "PACKAGE_NAME": "com.jolart.oneapp"
+        }
+    },
+    "dependent_plugins": {}
+}

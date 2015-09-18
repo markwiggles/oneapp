@@ -1,0 +1,26 @@
+{{!-- <h1> Info </h1> --}}
+{{!-- <i class="fa-icon fa-info-circle" size="4"> --}}
+
+{{!-- <div class="list-collection">
+  {{#ember-collection items=model.flickr height=model.viewport.height width=model.viewport.width cell-layout=(fixed-grid-layout 400 100) as |item index| }}
+
+<li>
+  {{#link-to 'detail' (query-params url=item.url title=item.title)}}
+    <img src= {{item.url}} height="75" width="75">
+  {{/link-to}}
+  <p>{{item.title}}</p>
+  {{#link-to 'detail' (query-params url=item.url title=item.title)}}
+    <i class="fa fa-chevron-right fa-2x text-primary"></i>
+  {{/link-to}}
+</li>
+{{/ember-collection}}
+</div> --}}
+
+<h3>Info</h3>
+
+{{!-- {{#mylink-component}}Link{{/mylink-component}} --}}
+<div id="info-list">
+  {{#ember-collection items=model height=500 width=400 cell-layout=(fixed-grid-layout 400 50) as |item index| }}
+    {{item.name}}
+  {{/ember-collection}}
+</div>

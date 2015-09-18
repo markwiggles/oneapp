@@ -1,0 +1,4 @@
+
+h1 Dashboard
+fa-icon "fa-bar-chart" size="4"
+outlet
