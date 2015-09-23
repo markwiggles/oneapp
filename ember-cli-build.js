@@ -11,6 +11,7 @@ module.exports = function(defaults) {
 	// output files.
 
 	app.import('vendor/js/push_plugin.js');
+	app.import('vendor/js/demo.js');
 
 	// If you need to use different assets in different
 	// environments, specify an object as the first parameter. That
